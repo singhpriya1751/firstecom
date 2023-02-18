@@ -8,17 +8,8 @@ function Navbar() {
     <div className="Navbar">
       <span className="nav-logo">SHOPPING</span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <NavLink to="/Home " className="one">
-          Home
-        </NavLink>
-        <NavLink to="/about" className={"one"}>
-          About
-        </NavLink>
-        <NavLink to="/service" className={"one"}>
-          Service
-        </NavLink>
-        <NavLink to="/contact" className={"one"}>
-          Contact
+        <NavLink to="/Login" className={"one"}>
+          Login
         </NavLink>
         <NavLink to="">
           <span className="shoppingCart">
